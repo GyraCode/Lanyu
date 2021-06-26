@@ -147,12 +147,21 @@ body {
             top: 100;
             transition: .5s;
         }
-        
-        .leafright{
+        .sea{
             overflow: hidden;
+             
         }
+        .leafright{
+          transform: translateX(500px);
+        }
+        
+        .img1{
+           transition: .5s;
+           width: 300px;
+        }
+
        
-        .leafr {
+        /* .leafr {
             z-index: 1;
            position: absolute;
              top: 1370px;
@@ -165,7 +174,7 @@ body {
             right: 0;
             top: 1370px;
             ;
-        }
+        } */
 
 
 

@@ -37,25 +37,31 @@ $(window).scroll(function () {
 
     else {
         $('.leaf').css('transform', 'rotate(35deg)');
+    }
+});
+
+$(window).scroll(function () {
+
+    const bodyMinusWindowHeight = $('body').height() - $(window).height();
+
+    const percentage = Math.floor(($(window).scrollTop() / bodyMinusWindowHeight) * 100)
+
+    if ($(window).scrollTop() > 800 && $(window).scrollTop() <= 1200) {
+        $('.img1').css('transform', 'rotate(10deg)');
 
     }
 
-    // if ($(window).scrollTop() > 400 && $(window).scrollTop() <= 600) {
-    //     $('.leafright').css('transform', 'rotate(40deg)');
+    else if ($(window).scrollTop() > 1200 && $(window).scrollTop() <= 1400) {
+        $('.img1').css('transform', 'rotate(0deg)');
+    }
+    else if ($(window).scrollTop() > 1600) {
+        $('.img1').css('transform', 'rotate(-10deg)');
+    }
 
-    // }
+    else {
+        $('.img1').css('transform', 'rotate(-20deg)');
 
-    // else if ($(window).scrollTop() > 600 && $(window).scrollTop() <= 800) {
-    //     $('.leafright').css('transform', 'rotate(50deg)');
-    // }
-    // else if ($(window).scrollTop() > 800) {
-    //     $('.leafright').css('transform', 'rotate(70deg)');
-    // }
-
-    // else {
-    //     $('.leafright').css('transform', 'rotate(35deg)');
-
-    // 
+    }
 });
 
 
