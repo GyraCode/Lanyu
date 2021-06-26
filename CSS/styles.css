@@ -1,6 +1,11 @@
 body {
             background-color: #FFF9F4;
         }
+        a:hover,a:visited
+        {
+            text-decoration: none;
+            color:#2D5Ba8
+        }
 
         .dpk {
             display: inline-block;
@@ -136,9 +141,10 @@ body {
             width: 10rem;
             height: auto;
             opacity: 0.6;
-            transform: rotate(24deg);
+            transform: rotate(35deg);
             position: absolute;
             top: 100;
+            transition: .5s;
         }
 
         .leafr {
@@ -146,6 +152,8 @@ body {
             position: absolute;
             right: 0;
             top: 1350px;
+           
+            transform: rotate(4deg);
 
         }
 
@@ -164,12 +172,17 @@ body {
         }
 
 
-
+        .ma{
+            padding-left: 10px;
+           
+            
+            width: 170px;
+        }
 
         .readmore {
             border-bottom: 1px solid #2d5ba8;
             text-align: center;
-            width: 105px;
+            width: 170px;
             margin: auto;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 900;
@@ -178,6 +191,7 @@ body {
             display: flex;
             text-decoration: none;
         }
+        
 
         /* herosection */
 
