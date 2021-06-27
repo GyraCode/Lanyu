@@ -152,7 +152,7 @@ body {
              
         }
         .leafright{
-          transform: translateX(500px);
+            float: right;
         }
         
         .img1{
