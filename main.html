@@ -27,23 +27,31 @@
 
 <body>
     <!--        Navbar       -->
-    <div class="navbar">
-        <!-- <div class="d-flex justify-content-between"> -->
-        <div class="logo ">
-            <a href="#" class="lanyu">
-                <img src="/img/1x/logo.png" alt="">
-            </a>
-        </div>
+    <div class="navbar ">
+        <div class="d-flex justify-content-between ">
+            <div class="logo col-xs-12">
+                <a href="#" class="lanyu">
+                    <img src="/img/1x/logo.png" alt="">
+                </a>
+            </div>
 
-        <div class="icon1  ">
-            <img src="/img/icon.png" alt="">
+
+            <!-- <div class="icon1 d-lg-none d-xs-block ">
+                <img src="/img/icon.png" alt="">
+            </div> -->
+
+
+        </div>
+        <div class="na d-none d-sm-block">
+            <a href="#ab">About</a>
+            <a href="#Fs">Festival</a>
+            <a href="#Di">Diving</a>
         </div>
     </div>
-
     <div class="secondpage d-flex justify-content-center">
         <div class="firstleft">
             <div class="leftfont  d-none d-sm-block  "> Contact Us!</div>
-            <div class="social">
+            <div class="social d-none d-sm-block">
                 <a href="">
                     <div class="insta"><i class="fab fa-instagram"></i></div>
                 </a>
@@ -57,6 +65,7 @@
             </div>
 
         </div>
+
         <div id="carouselExampleIndicators" class="carousel slide carobox  " data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -72,7 +81,7 @@
                     <img src="/img/carousal/two1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/img/carousal/two4e300d_4620693218576680034_210619_0010.jpg" class="d-block w-100"
+                    <img src="/img/carousal/two4e300d_4620693218576680034_210619_0010.jpg" class="d-block w-100 "
                         alt="...">
                 </div>
             </div>
@@ -86,7 +95,7 @@
             </a>
         </div>
         <div class="firstright">
-            <div class="rightfont d-none d-sm-block ">Photo Blog</div>
+            <div class="rightfont d-none d-sm-block ">About Lanyu</div>
         </div>
     </div>
 
@@ -112,18 +121,18 @@
     </div>
 
     <div class="container ">
-        <div class="row d-flex justify-content-between ">
+        <div class="row d-flex justify-content-between flex-wrap">
 
-            <div class="write col-sm-12 col-md-6">
+            <div class="write col-xs-12 col-lg-6 " id="ab">
                 <h2 class="chalk">About Lanyu</h2>
                 <h3 class="tao">Pongso no Tao !</h3>
-                <p class="chinese">
+                <p class="chinese ">
                     從空中俯瞰，蘭嶼像顆被藍色海洋熱情擁抱的海上珍珠，閃著獨有的光芒，吸引著旅人目光；踏上蘭嶼土地，跟著島上居民的腳步，會發現總有聽不完的傳說、看不盡的美景及吃不完的美食，熱情的招呼與親切的問候，讓來自遠方的旅人，忘卻了旅行的疲累，有種回家的溫暖。
                 </p>
 
             </div>
 
-            <div class="boat col-sm-12 col-md-6 ">
+            <div class="boat col-xs-12 col-lg-6 ">
                 <img src="/img/130791763_xl-1.jpeg" alt="">
 
             </div>
@@ -134,27 +143,39 @@
     <div class="sea">
         <div class="container ">
             <div class="row d-flex justify-content-between pt10 dpk">
-                <div class="write order-1 pt10 col-sm-12 col-md-6">
+                <div class="write order-1 pt10 col-xs-12 col-lg-6">
                     <p class="chinese ">
                         島上的環島公路與中橫公路，串起了島上部落，也串起了島上的萬種風景，租台單車或是摩托車，探訪飛魚的旅程開始了，記得可別騎太快，島上唯一的紅綠燈是自在穿峻在路邊的豬與羊。
                     </p>
-                    <div class=" readmore">
-                        <a href="" class="ma">
+                    <div class=" readmore col-xs-12 col-lg-6">
+                        <a class="ma" href="readmore.html">
                             <p>
                                 點我觀看更多!
                             </p>
                         </a>
                     </div>
                 </div>
-                <div class="sealeft order-0">
+                <div class="sealeft order-0 col-xs-12 col-lg-6 ">
                     <img src="/img/sealeft.jpg" alt="">
                 </div>
+
+            </div>
+            <div class="leafright d-none d-md-block ">
+                <img src="/img/1.png" alt="" class="img1">
             </div>
         </div>
-        <div class="leafright">
-            <img src="/img/1.png" alt="" class="img1">
-        </div>
+
     </div>
+
+    </div>
+    </div>
+
+    <div class="container ">
+        <div class="row flex-wrap">
+            <div class="tatoo2 col-xs-12 col-lg-12 d-noe d-lg-none">
+                <img src="/img/eye.gif" alt="">
+            </div>
+        </div>
     </div>
     <!-- <div class="leafright">
     <img src="/img/1.png" alt="" class="img1">
@@ -164,7 +185,7 @@
 
     <div class="herosection">
         <div class="container">
-            <div class="row d-none d-md-block">
+            <div class="row d-lg-block d-none d-sm-block">
                 <p class="ira">Irala!</p>
                 <h1 class="pnt">Pongso no Tao</h1>
             </div>
@@ -173,8 +194,8 @@
 
 
         <div class="thirdpage">
-            <div class="leafleft" id="leafA">
-                <svg class="leaf" xmlns="http://www.w3.org/2000/svg" width="81.2" height="149" viewBox="0 0 81.2 149">
+            <div class="leafleft d-none d-md-block " id="leafA">
+                <svg class="leaff" xmlns="http://www.w3.org/2000/svg" width="81.2" height="149" viewBox="0 0 81.2 149">
                     <g id="Calque_2_1_">
                         <path
                             d="M79.9 113.4c-5.6 0-11.1.7-16.6 2 2-1.9 3.5-4.2 4.3-6.8 0-.1.1-.2.1-.4l-1.8-.8c-.1.2-.1.4-.2.5-.6 1.8-2.4 7.2-10.6 9.8-7 2.2-16.6 10-21.7 14.4 1.7-5.7 2.1-11.7 1.2-17.6.1-.1.1-.1.1-.2 1.8-3.8 4.6-7 8.1-9.3 8-5.2 18.4-8.5 23.8-17.7 2.1-3.5 3.7-7.3 4.9-11.2.1-.5-.2-1.1-.7-1.2-.3-.1-.7 0-1 .3-3.5 4-8.1 6.9-13.3 8.1-12.6 3.3-20.7 11.8-22.3 17.7-.5 2-.8 4-.9 6-.2-.7-.3-1.4-.5-2.1-.5-1.9-1.1-4.1-1.8-6.5s-1.4-4.7-2-7.4c.6-2.1 4.9-15.2 14-19 10.3-4.3 17.3-6.9 17.4-7l-.7-1.9c-.1 0-7.1 2.7-17.4 7-7.9 3.3-12.3 12.3-14.2 17.3-1.4-6.6-2.2-13.8-.9-21 1.9-.1 6.6-.1 12.6-5.2 2.9-2.4 5.4-5.1 7.6-8.2.6-.8.4-2-.5-2.6-.5-.4-1.2-.4-1.7-.2-4.3 1.7-10.2 4.5-11.5 7.1-1.7 3-3.8 5.7-6.3 8.1 1.1-5.1 3.4-9.9 6.6-14 5.1-6.5 9.8-13.3 14-20.4.2.1.5.1.8.1 2.7-.5 6.3-1.2 10.2-1.9 7.9-1.2 17.5-9.5 19.9-18.8.9-3.5 1.6-6.3 2.3-8.5.2-.8-.2-1.6-1-1.8-.5-.1-1.1 0-1.4.4-3.3 3.1-7.8 7.3-11.4 9.2-3.6 1.9-10 8.4-15.3 13.9 2.7-5.1 4-8.3 4-8.3l-1.8-.7c-2.7 6-5.8 11.9-9.3 17.5.4-6 0-17.1-6.9-24.5-.8-.8-2.1-.7-2.8.1-.3.3-.5.7-.5 1.2 0 4.1-.3 10.4-1.8 15.3-1.9 5.9 2.8 12.9 5.4 16.2.2.3.6.5.9.6-2.1 3-4.4 6.1-6.9 9.2-1 1.2-1.9 2.5-2.7 3.9.6-7.5-1-14.9-4.7-21.5l-1.7 1.1c3.9 7.1 5.3 15.2 4 23.1-1.8-3.8-5.7-10-12-10.6-7.2-.7-9.4 1.8-10 2.8-.1.2-.1.5.1.7 1.4 1.2 7.2 6.1 11.4 5.6 3.4-.4 8 2.1 10.4 3.5h.2c-3 7.3-3.3 14.9-2.4 22L12.9 70l-1.3 1.5 4.3 3.9c-3.3.3-9.6 1.3-12.4 3.9-1.4 1.3-2.4 2.9-3.1 4.6-.9 2.2.1 4.7 2.3 5.6.4.2.9.3 1.3.3 2.9.2 5.7-1 7.5-3.2 2.7-2.8 4.7-6.2 6-9.8l7.9 7C26.3 89 27.6 94 29.1 99c.1.4.2.8.3 1.1-3.1-2.8-7.3-4.1-11.5-3.6-4.3.4-8.4 1.2-12.5 2.5-1.8.6-2.8 2.6-2.2 4.4.2.6.6 1.1 1 1.5 3.3 2.8 7.5 4.4 11.9 4.5 4.5 0 9-.3 13.5-.9.6-.1 1.2-.3 1.8-.8 1.7 7.3 3.3 17.3-1.5 27.4-.1.3-.3.6-.4.9.5-4.3-.1-10.1-5.9-13.4-4.8-2.8-10-4.7-15.4-5.7-.8-.1-1.6.4-1.8 1.2-1 3.1-2.5 10.9 5.7 14.3 5 2 9.8 4.6 14.3 7.6.2.1.4.2.6.2-1.9 2.7-4.1 5.1-6.5 7.3l1.3 1.5c4.1-3.5 7.5-7.9 9.9-12.7 2.5-2.3 15.5-14 24-16.7l.3-.1c.1.3.4.5.7.6 3.9 1.4 8.1 1.7 12.1.8 4.3-.9 8.3-2.7 11.9-5.2.6-.4.7-1.3.2-1.8-.3-.3-.6-.5-1-.5z"
@@ -192,69 +213,57 @@
 
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="row d-flex justify-content-between ">
-                        <div class="write col-sm-12 col-md-6 ai ">
-                            <h1 class="flyfishfont">飛魚季</h1>
-                        </div>
-
-                        <div class="fish col-sm-12 col-md-6 ">
-                            <img src="/img/fish.jpg" alt="">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="fishcont pt10">
-            <div class="container ">
                 <div class="row d-flex justify-content-between ">
-                    <div class="write col-sm-12 col-md-6 order-1 pt10">
-                        <p class="fishp">
-                            蘭嶼最為重要的一段神話故事當屬飛魚託夢，傳說海退之後，人們將貝、蟹、飛魚等混著煮食，而產生了很多的病，於是魚神就托夢給一位老人，要他到一個地方去，那老人去後，看到有一條黑翅膀的大飛魚在那兒等他。魚神見到老人之後，就告訴老人正確的食魚方法，老人回到部落後，便以正式的方式在部落舉行傳授此一食魚的方法，其他部落看了，也都來向他們學習，代代相傳之後便形成了現在的飛魚祭典儀式。
-                        </p>
+                    <div class="write  ai col-xs-12 col-lg-6 " id="Fs">
+                        <h1 class="flyfishfont">飛魚季</h1>
+                    </div>
+
+                    <div class="fish col-xs-12 col-lg-6 ">
+                        <img src="/img/fish.jpg" alt="">
 
                     </div>
 
-                    <div class="fish2 col-sm-12 col-md-6  order-0">
-                        <img src="/img/fish1.jpg" alt="">
-
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="leafright2">
-            <svg class="leafrr" xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 144.88 141.44">
-                <g data-name="Calque 2">
-                    <path
-                        d="M144.8 140.11a149.57 149.57 0 0 0-13.63-16.7l5.15-9.89 3.71-7.14c.87-1.68 1.34-2.59 1.57-3.14a.15.15 0 0 0 0-.06.57.57 0 0 0 .07-.22c.18-.57-1.5-1-1.5-1a.51.51 0 0 0-.32.32c-.3.61-6.06 11.68-10.17 19.58-3.69-3.89-8-8.12-13-12.43l4.61-13.12a.51.51 0 0 0-.31-.64l-.94-.33a.55.55 0 0 0-.38 0 .53.53 0 0 0-.26.29L115.13 108c-3.49-3-6.91-5.57-10.26-8l5.55-13.42a.5.5 0 0 0-.27-.65l-.93-.39a.5.5 0 0 0-.38 0 .51.51 0 0 0-.27.27l-5.37 13c-2.15-1.53-4.27-3-6.37-4.44-2.4-1.64-4.71-3.24-7-4.86l5.92-12.81a.51.51 0 0 0-.25-.7l-.91-.41a.5.5 0 0 0-.38 0 .55.55 0 0 0-.28.26l-5.71 12.51a89.28 89.28 0 0 1-12-10.36l5-17.56a.5.5 0 0 0-.35-.61l-1-.28a.51.51 0 0 0-.38 0 .48.48 0 0 0-.24.3l-4.62 16.46a64.26 64.26 0 0 1-5.73-7.5c-1.17-1.79-2.35-3.48-3.54-5.13l4.34-11.24a.46.46 0 0 0 0-.38.51.51 0 0 0-.27-.27l-.94-.36a.5.5 0 0 0-.64.29L64 61.76a119.1 119.1 0 0 0-9.7-11.29l3.63-11a.51.51 0 0 0-.32-.63l-1-.31a.5.5 0 0 0-.38 0 .48.48 0 0 0-.25.29l-3.31 10a144.63 144.63 0 0 0-10.83-9.66L45.31 28a.51.51 0 0 0-.33-.63L44 27a.5.5 0 0 0-.38 0 .48.48 0 0 0-.24.3l-3.17 10.57c-4-3.21-8.25-6.3-12.68-9.49-.38-.27-.73-.54-1.09-.81l2.07-13.27a.54.54 0 0 0-.09-.37.5.5 0 0 0-.33-.2l-1-.15a.5.5 0 0 0-.57.41l-1.88 12.14a38.65 38.65 0 0 1-9.6-12l5.37-13a.49.49 0 0 0-.27-.65L19.22 0a.53.53 0 0 0-.39 0 .51.51 0 0 0-.27.27L13.9 11.59c0-.12-.1-.24-.14-.35a27.57 27.57 0 0 1-2-8.68.52.52 0 0 0-.51-.49h-1a.47.47 0 0 0-.35.15.5.5 0 0 0-.14.35 28.71 28.71 0 0 0 2.16 9.34c.23.59.49 1.2.78 1.84L.82 11.16a.52.52 0 0 0-.38.07.45.45 0 0 0-.21.31l-.22 1a.5.5 0 0 0 .38.6l13.39 2.93a41 41 0 0 0 8.84 11l-10.34.47a.5.5 0 0 0-.48.52v1a.53.53 0 0 0 .17.35.51.51 0 0 0 .33.13l12.52-.57L26.36 30c4.4 3.16 8.58 6.23 12.59 9.41l-13.39-.11a.56.56 0 0 0-.35.15.47.47 0 0 0-.15.35v1a.49.49 0 0 0 .49.5l15.3.13a.47.47 0 0 0 .36-.2c3.16 2.59 6.22 5.27 9.18 8.16-6.62.56-11.93.85-12.55.68a.51.51 0 0 0-.61.27l-.44.84a.57.57 0 0 0 0 .38.53.53 0 0 0 .24.31 4.43 4.43 0 0 0 2 .22c2.9 0 8.58-.44 13.24-.86a117.14 117.14 0 0 1 10.33 12l-20.38-1.3a.52.52 0 0 0-.36.12.53.53 0 0 0-.17.35l-.06 1a.5.5 0 0 0 .46.53l22 1.42c1.05 1.47 2.09 3 3.13 4.56a66.22 66.22 0 0 0 6 7.81h-16.3a.5.5 0 0 0-.35.14.49.49 0 0 0-.15.36v1a.51.51 0 0 0 .5.5h18.13a87.06 87.06 0 0 0 10.32 9l-17.05 1.77a.44.44 0 0 0-.33.18.44.44 0 0 0-.11.36l.1 1a.5.5 0 0 0 .5.45l19.22-2c2.55 1.86 5.21 3.69 8 5.58 1.86 1.28 3.74 2.57 5.64 3.91l-18.52 3.9a.49.49 0 0 0-.38.59l.2 1a.52.52 0 0 0 .22.32.53.53 0 0 0 .27.08h.11l20.31-4.28c3.25 2.34 6.55 4.85 9.92 7.69l-17.07 4.38a.5.5 0 0 0-.36.61l.25 1a.47.47 0 0 0 .23.3.47.47 0 0 0 .25.07h.13l18.44-4.74c4.79 4.17 9 8.27 12.6 12.05l-22.67 5.45a.49.49 0 0 0-.37.6l.23 1a.48.48 0 0 0 .23.31.5.5 0 0 0 .26.08h.12l23.78-5.71a147.15 147.15 0 0 1 13.61 16.63.51.51 0 0 0 .42.23.49.49 0 0 0 .28-.09l.83-.55a.5.5 0 0 0 .14-.78z"
-                        fill="#325a9e" data-name="Calque 3"></path>
-                </g>
-            </svg><svg class="leaf-greyy" xmlns="http://www.w3.org/2000/svg" width="280" height="280"
-                viewBox="0 0 166.25 162.43">
-                <g data-name="Calque 2">
-                    <path
-                        d="M166.25 125.8s-5.22-15.68-19-22.46-21.25-6.46-32.47-14.42S96.91 59.81 86 52.75s-23.41-8.82-29.59-18.14S39.87.5 23.62 0-5.61 17.43 2.46 30.14 24 49.46 28.94 57.66s2.54 25.68 16.86 36.22 20.83 6.58 28.39 22.85 12.58 30.27 41.25 40.62 38.36 2.82 41.89-4 8.92-27.55 8.92-27.55z"
-                        fill="#fc9578" data-name="Calque 3"></path>
-                </g>
-            </svg>
+
+        <div class="sea2">
+            <div class="fishcont pt10">
+                <div class="container ">
+                    <div class="row d-flex justify-content-between ">
+                        <div class="write col-xs-12 col-lg-6 order-1 pt10">
+                            <p class="fishp ">
+                                蘭嶼最為重要的一段神話故事當屬飛魚託夢，傳說海退之後，人們將貝、蟹、飛魚等混著煮食，而產生了很多的病，於是魚神就托夢給一位老人，要他到一個地方去，那老人去後，看到有一條黑翅膀的大飛魚在那兒等他。魚神見到老人之後，就告訴老人正確的食魚方法，老人回到部落後，便以正式的方式在部落舉行傳授此一食魚的方法，其他部落看了，也都來向他們學習，代代相傳之後便形成了現在的飛魚祭典儀式。
+                            </p>
+
+                        </div>
+
+                        <div class="fish2 col-xs-12 col-lg-6  order-0">
+                            <img src="/img/fish1.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leafright2 d-none d-md-block ">
+                <img src="/img/le2.png" alt="" class="img2">
+            </div>
         </div>
 
-
-        <div class="container">
-            <div class="tatoo ">
-
-                <img src="/img/eye.gif" alt="">
+        <div class="container ">
+            <div class="row flex-wrap">
+                <div class="tatoo col-xs-12 col-lg-12">
+                    <img src="/img/eye.gif" alt="">
+                </div>
             </div>
         </div>
 
 
         <div class="forthpage pt10 ">
 
-            <div class="leafleft">
-                <svg class="leaf" xmlns="http://www.w3.org/2000/svg" width="81.2" height="149" viewBox="0 0 81.2 149">
+            <div class="leafleft d-none d-md-block ">
+                <svg class="lea3f" xmlns="http://www.w3.org/2000/svg" width="81.2" height="149" viewBox="0 0 81.2 149">
                     <g id="Calque_2_1_">
                         <path
                             d="M79.9 113.4c-5.6 0-11.1.7-16.6 2 2-1.9 3.5-4.2 4.3-6.8 0-.1.1-.2.1-.4l-1.8-.8c-.1.2-.1.4-.2.5-.6 1.8-2.4 7.2-10.6 9.8-7 2.2-16.6 10-21.7 14.4 1.7-5.7 2.1-11.7 1.2-17.6.1-.1.1-.1.1-.2 1.8-3.8 4.6-7 8.1-9.3 8-5.2 18.4-8.5 23.8-17.7 2.1-3.5 3.7-7.3 4.9-11.2.1-.5-.2-1.1-.7-1.2-.3-.1-.7 0-1 .3-3.5 4-8.1 6.9-13.3 8.1-12.6 3.3-20.7 11.8-22.3 17.7-.5 2-.8 4-.9 6-.2-.7-.3-1.4-.5-2.1-.5-1.9-1.1-4.1-1.8-6.5s-1.4-4.7-2-7.4c.6-2.1 4.9-15.2 14-19 10.3-4.3 17.3-6.9 17.4-7l-.7-1.9c-.1 0-7.1 2.7-17.4 7-7.9 3.3-12.3 12.3-14.2 17.3-1.4-6.6-2.2-13.8-.9-21 1.9-.1 6.6-.1 12.6-5.2 2.9-2.4 5.4-5.1 7.6-8.2.6-.8.4-2-.5-2.6-.5-.4-1.2-.4-1.7-.2-4.3 1.7-10.2 4.5-11.5 7.1-1.7 3-3.8 5.7-6.3 8.1 1.1-5.1 3.4-9.9 6.6-14 5.1-6.5 9.8-13.3 14-20.4.2.1.5.1.8.1 2.7-.5 6.3-1.2 10.2-1.9 7.9-1.2 17.5-9.5 19.9-18.8.9-3.5 1.6-6.3 2.3-8.5.2-.8-.2-1.6-1-1.8-.5-.1-1.1 0-1.4.4-3.3 3.1-7.8 7.3-11.4 9.2-3.6 1.9-10 8.4-15.3 13.9 2.7-5.1 4-8.3 4-8.3l-1.8-.7c-2.7 6-5.8 11.9-9.3 17.5.4-6 0-17.1-6.9-24.5-.8-.8-2.1-.7-2.8.1-.3.3-.5.7-.5 1.2 0 4.1-.3 10.4-1.8 15.3-1.9 5.9 2.8 12.9 5.4 16.2.2.3.6.5.9.6-2.1 3-4.4 6.1-6.9 9.2-1 1.2-1.9 2.5-2.7 3.9.6-7.5-1-14.9-4.7-21.5l-1.7 1.1c3.9 7.1 5.3 15.2 4 23.1-1.8-3.8-5.7-10-12-10.6-7.2-.7-9.4 1.8-10 2.8-.1.2-.1.5.1.7 1.4 1.2 7.2 6.1 11.4 5.6 3.4-.4 8 2.1 10.4 3.5h.2c-3 7.3-3.3 14.9-2.4 22L12.9 70l-1.3 1.5 4.3 3.9c-3.3.3-9.6 1.3-12.4 3.9-1.4 1.3-2.4 2.9-3.1 4.6-.9 2.2.1 4.7 2.3 5.6.4.2.9.3 1.3.3 2.9.2 5.7-1 7.5-3.2 2.7-2.8 4.7-6.2 6-9.8l7.9 7C26.3 89 27.6 94 29.1 99c.1.4.2.8.3 1.1-3.1-2.8-7.3-4.1-11.5-3.6-4.3.4-8.4 1.2-12.5 2.5-1.8.6-2.8 2.6-2.2 4.4.2.6.6 1.1 1 1.5 3.3 2.8 7.5 4.4 11.9 4.5 4.5 0 9-.3 13.5-.9.6-.1 1.2-.3 1.8-.8 1.7 7.3 3.3 17.3-1.5 27.4-.1.3-.3.6-.4.9.5-4.3-.1-10.1-5.9-13.4-4.8-2.8-10-4.7-15.4-5.7-.8-.1-1.6.4-1.8 1.2-1 3.1-2.5 10.9 5.7 14.3 5 2 9.8 4.6 14.3 7.6.2.1.4.2.6.2-1.9 2.7-4.1 5.1-6.5 7.3l1.3 1.5c4.1-3.5 7.5-7.9 9.9-12.7 2.5-2.3 15.5-14 24-16.7l.3-.1c.1.3.4.5.7.6 3.9 1.4 8.1 1.7 12.1.8 4.3-.9 8.3-2.7 11.9-5.2.6-.4.7-1.3.2-1.8-.3-.3-.6-.5-1-.5z"
@@ -272,109 +281,109 @@
 
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="row d-flex justify-content-between ">
-                        <div class="write col-sm-12 col-md-6 ai ">
-                            <h1 class="flyfishfont">潛水</h1>
-                        </div>
 
-                        <div class="fish col-sm-12 col-md-6 ">
-                            <img src="/img/two1.jpg" alt="">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fishcont pt10">
-            <div class="container ">
                 <div class="row d-flex justify-content-between ">
-                    <div class="write col-sm-12 col-md-6 order-1 pt10">
-                        <p class="fishp">
-                            而除了原住民文化外，最吸引大家一年四季前來蘭嶼的原因就是這裡的海洋環境了，終年保持於攝氏27.5度的海水及平緩的洋流，讓即使是初學者也只要跟著教練的一對一潛水教學，很快地就能悠游於這片湛藍的海洋之中，將美麗的珊瑚礁、熱帶魚盡收眼底，更有機會近距離地看見魔鬼魟、大型龍王雕等稀有魚類呢！在介紹潛點之前，要切記：飛魚季時禁止潛水喔！
-                        </p>
-
+                    <div class="write col-xs-12 col-lg-6 ai " id="Di">
+                        <h1 class="flyfishfont">潛水</h1>
                     </div>
 
-                    <div class="fish2 col-sm-12 col-md-6  order-0">
-                        <img src="/img/water.jpeg" alt="">
+                    <div class="fish3 col-xs-12 col-lg-6 ">
+                        <img src="/img/two1.jpg" alt="">
 
                     </div>
                 </div>
             </div>
+
         </div>
-        <div class="leafright3">
-            <svg class="leafrrr" xmlns="http://www.w3.org/2000/svg" width="250" height="250"
-                viewBox="0 0 144.88 141.44">
-                <g data-name="Calque 2">
-                    <path
-                        d="M144.8 140.11a149.57 149.57 0 0 0-13.63-16.7l5.15-9.89 3.71-7.14c.87-1.68 1.34-2.59 1.57-3.14a.15.15 0 0 0 0-.06.57.57 0 0 0 .07-.22c.18-.57-1.5-1-1.5-1a.51.51 0 0 0-.32.32c-.3.61-6.06 11.68-10.17 19.58-3.69-3.89-8-8.12-13-12.43l4.61-13.12a.51.51 0 0 0-.31-.64l-.94-.33a.55.55 0 0 0-.38 0 .53.53 0 0 0-.26.29L115.13 108c-3.49-3-6.91-5.57-10.26-8l5.55-13.42a.5.5 0 0 0-.27-.65l-.93-.39a.5.5 0 0 0-.38 0 .51.51 0 0 0-.27.27l-5.37 13c-2.15-1.53-4.27-3-6.37-4.44-2.4-1.64-4.71-3.24-7-4.86l5.92-12.81a.51.51 0 0 0-.25-.7l-.91-.41a.5.5 0 0 0-.38 0 .55.55 0 0 0-.28.26l-5.71 12.51a89.28 89.28 0 0 1-12-10.36l5-17.56a.5.5 0 0 0-.35-.61l-1-.28a.51.51 0 0 0-.38 0 .48.48 0 0 0-.24.3l-4.62 16.46a64.26 64.26 0 0 1-5.73-7.5c-1.17-1.79-2.35-3.48-3.54-5.13l4.34-11.24a.46.46 0 0 0 0-.38.51.51 0 0 0-.27-.27l-.94-.36a.5.5 0 0 0-.64.29L64 61.76a119.1 119.1 0 0 0-9.7-11.29l3.63-11a.51.51 0 0 0-.32-.63l-1-.31a.5.5 0 0 0-.38 0 .48.48 0 0 0-.25.29l-3.31 10a144.63 144.63 0 0 0-10.83-9.66L45.31 28a.51.51 0 0 0-.33-.63L44 27a.5.5 0 0 0-.38 0 .48.48 0 0 0-.24.3l-3.17 10.57c-4-3.21-8.25-6.3-12.68-9.49-.38-.27-.73-.54-1.09-.81l2.07-13.27a.54.54 0 0 0-.09-.37.5.5 0 0 0-.33-.2l-1-.15a.5.5 0 0 0-.57.41l-1.88 12.14a38.65 38.65 0 0 1-9.6-12l5.37-13a.49.49 0 0 0-.27-.65L19.22 0a.53.53 0 0 0-.39 0 .51.51 0 0 0-.27.27L13.9 11.59c0-.12-.1-.24-.14-.35a27.57 27.57 0 0 1-2-8.68.52.52 0 0 0-.51-.49h-1a.47.47 0 0 0-.35.15.5.5 0 0 0-.14.35 28.71 28.71 0 0 0 2.16 9.34c.23.59.49 1.2.78 1.84L.82 11.16a.52.52 0 0 0-.38.07.45.45 0 0 0-.21.31l-.22 1a.5.5 0 0 0 .38.6l13.39 2.93a41 41 0 0 0 8.84 11l-10.34.47a.5.5 0 0 0-.48.52v1a.53.53 0 0 0 .17.35.51.51 0 0 0 .33.13l12.52-.57L26.36 30c4.4 3.16 8.58 6.23 12.59 9.41l-13.39-.11a.56.56 0 0 0-.35.15.47.47 0 0 0-.15.35v1a.49.49 0 0 0 .49.5l15.3.13a.47.47 0 0 0 .36-.2c3.16 2.59 6.22 5.27 9.18 8.16-6.62.56-11.93.85-12.55.68a.51.51 0 0 0-.61.27l-.44.84a.57.57 0 0 0 0 .38.53.53 0 0 0 .24.31 4.43 4.43 0 0 0 2 .22c2.9 0 8.58-.44 13.24-.86a117.14 117.14 0 0 1 10.33 12l-20.38-1.3a.52.52 0 0 0-.36.12.53.53 0 0 0-.17.35l-.06 1a.5.5 0 0 0 .46.53l22 1.42c1.05 1.47 2.09 3 3.13 4.56a66.22 66.22 0 0 0 6 7.81h-16.3a.5.5 0 0 0-.35.14.49.49 0 0 0-.15.36v1a.51.51 0 0 0 .5.5h18.13a87.06 87.06 0 0 0 10.32 9l-17.05 1.77a.44.44 0 0 0-.33.18.44.44 0 0 0-.11.36l.1 1a.5.5 0 0 0 .5.45l19.22-2c2.55 1.86 5.21 3.69 8 5.58 1.86 1.28 3.74 2.57 5.64 3.91l-18.52 3.9a.49.49 0 0 0-.38.59l.2 1a.52.52 0 0 0 .22.32.53.53 0 0 0 .27.08h.11l20.31-4.28c3.25 2.34 6.55 4.85 9.92 7.69l-17.07 4.38a.5.5 0 0 0-.36.61l.25 1a.47.47 0 0 0 .23.3.47.47 0 0 0 .25.07h.13l18.44-4.74c4.79 4.17 9 8.27 12.6 12.05l-22.67 5.45a.49.49 0 0 0-.37.6l.23 1a.48.48 0 0 0 .23.31.5.5 0 0 0 .26.08h.12l23.78-5.71a147.15 147.15 0 0 1 13.61 16.63.51.51 0 0 0 .42.23.49.49 0 0 0 .28-.09l.83-.55a.5.5 0 0 0 .14-.78z"
-                        fill="#7BA5ED" data-name="Calque 3"></path>
-                </g>
-            </svg><svg class="leaf-greyyy" xmlns="http://www.w3.org/2000/svg" width="280" height="280"
-                viewBox="0 0 166.25 162.43">
-                <g data-name="Calque 2">
-                    <path
-                        d="M166.25 125.8s-5.22-15.68-19-22.46-21.25-6.46-32.47-14.42S96.91 59.81 86 52.75s-23.41-8.82-29.59-18.14S39.87.5 23.62 0-5.61 17.43 2.46 30.14 24 49.46 28.94 57.66s2.54 25.68 16.86 36.22 20.83 6.58 28.39 22.85 12.58 30.27 41.25 40.62 38.36 2.82 41.89-4 8.92-27.55 8.92-27.55z"
-                        fill="#2d5ba8" data-name="Calque 3"></path>
-                </g>
-            </svg>
-        </div>
+        <div class="se3a">
+            <div class="fishcont pt10">
+                <div class="container ">
+                    <div class="row d-flex justify-content-between ">
+                        <div class="write col-xs-12 col-lg-6  order-1 pt10">
+                            <p class="fishp">
+                                而除了原住民文化外，最吸引大家一年四季前來蘭嶼的原因就是這裡的海洋環境了，終年保持於攝氏27.5度的海水及平緩的洋流，讓即使是初學者也只要跟著教練的一對一潛水教學，很快地就能悠游於這片湛藍的海洋之中，將美麗的珊瑚礁、熱帶魚盡收眼底，更有機會近距離地看見魔鬼魟、大型龍王雕等稀有魚類呢！在介紹潛點之前，要切記：飛魚季時禁止潛水喔！
+                            </p>
 
-        <div class="final ">
-            <a href="" class="readfinal">點我觀看更多!</a>
-        </div>
-
-
-        <footer id="colophon" class="site-footer" role="contentinfo">
-            <div class="container">
-                <div class="footer-top pt10">
-                    <div class="site-footer-inner row no-gutters align-items-stretch">
-                        <div class="col col-contact-link d-flex align-items-center text-center cobo">
-                            <div class="col-inner m-auto"> <a class="js-contactform" href="#"> <strong>Contant US!
-                                        !</strong>
-                                </a></div>
-                        </div>
-                        <div class="col col-address d-flex align-items-center text-center cobo">
-                            <div class="col-inner m-auto">
-                                <p>台東蘭嶼鄉</p>
-                            </div>
-                        </div>
-                        <div class="col col-email-link d-flex align-items-center text-center cobo">
-                            <div class="col-inner m-auto"> 0970277328<br> <a
-                                    href="mailto:contact@jvebstudio.com"><strong>Lanyutogethert@gogo.com</strong></a>
-                            </div>
-                        </div>
-                        <div class="menu-social-wrapper d-flex align-items-stretch text-center ">
-                            <ul id="menu-menu-reseaux-sociaux-2"
-                                class="social-icons reset-ul d-flex align-items-stretch list-unstyled">
-                                <li><i class="fab fa-facebook"></i></li>
-                                <li><i class="fab fa-twitter"></i></li>
-                                <li><i class="fab fa-instagram"></i>
-                                </li>
-                            </ul>
                         </div>
 
+                        <div class="waterr col-xs-12 col-lg-6    order-0">
+                            <img src="/img/water.jpeg" alt="">
+
+                        </div>
                     </div>
+                </div>
+                <div class="leafright3 d-none d-md-block ">
+                    <img src="/img/le3.png" alt="" class="img3">
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <div class="final col-xs-12 col-lg-12 ">
+        <a href="readmore.html" class="readfinal">點我觀看更多!</a>
+    </div>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer ">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-xs-12 col-md-6 ">
+                    <h6>About</h6>
+                    <p class="text-justify">只要來過一次蘭嶼，就會深深愛上這個自然人文並重並存的島嶼
+
+                        直到現在已經回到台北，仍常想起蘭嶼的大海、陽光、星空，彷彿坐在涼亭發呆都是一種日常享受
+
+                        本篇文章總整理了蘭嶼景點、蘭嶼美食，並包含蘭嶼交通住宿、禁忌注意事項等資訊，讓每個人都可以輕鬆旅行蘭嶼，記憶海洋帶給我們的感動</p>
                 </div>
 
+
+
+                <!-- <div class="col-xs-12 col-md-6">
+                    <h6 style="text-align:right">Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+
+                </div> -->
             </div>
-        </footer>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">Scanfcode</a>.
+                    </p>
+                </div>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.js"
-            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fab fa-instagram"></i></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fab fa-twitter"></i></a></li>
 
-        <script src="/imdex.js"></script>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <script src="/imdex.js"></script>
 
 </body>
 
