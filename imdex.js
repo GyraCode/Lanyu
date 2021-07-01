@@ -300,3 +300,17 @@ $(window).scroll(function () {
 
 // })
 
+$(window).scroll(function () {
+    $('.jq1 , .jq2, .jq3, .jq4').each(function (index, item) {
+        console.log('item:', $(item).offset().top);
+        if ($(window).scrollTop() + $(window).height() >= $(item).offset().top) {
+            $(item).addClass('show')
+        }
+        else {
+            $(item).removeClass('show')
+        }
+    });
+});
+
+
+
